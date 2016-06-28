@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Metadata Microservice</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <style>
+        body { padding-top:50px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+        <h1>Select File to View Filesize</h1>
+            <form method="post" enctype="multipart/form-data" action="/uploads">
+                <input name="file1" type="file">
+                <input type="submit" value="Query File Size">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
